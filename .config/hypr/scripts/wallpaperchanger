@@ -1,0 +1,7 @@
+#!/bin/bash
+
+	dir="${HOME}/Pictures/wallpapers"
+	BG="$(find "$dir" -name '*.jpg' -o -name '*.png' -o -name '*.jpeg' -o -name '*.gif' | shuf -n1)"
+
+wal -i "$BG" --backend color
+swww img $BG -t grow --transition-pos top --transition-duration 0.5 --transition-fps 60

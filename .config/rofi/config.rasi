@@ -1,0 +1,13 @@
+@theme "~/.cache/wal/colors-rofi-dark.rasi"
+
+configuration {
+  drun-display-format: "{icon} {name}";
+  font: "JetBrainsMono Nerd Font 14";
+  modi: "drun";
+  display-drun: "    Run  ";
+  show-icons: true;
+  sidebar-mode: false;
+  disable-history: false;
+  terminal: "alacritty";
+  icon-theme: "la-capitaine";
+}

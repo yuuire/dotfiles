@@ -1,0 +1,10 @@
+import = [
+    "~/.config/alacritty/catppuccin-macchiato.toml"
+    # "~/.cache/wal/colors-alacritty.toml"
+]
+
+[env]
+TERM = "xterm-256color"
+
+[window]
+opacity = 1
